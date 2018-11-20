@@ -1,0 +1,134 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  margin: 0px 0px 0px 10px;
+  color: #588157;
+  font-size: 70px;
+}
+
+.link {
+  text-decoration: none;
+  color: #588157;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #588157;
+}
+
+.task-details {
+  text-align: left;
+  margin: 25px 1100px 25px 10px;
+  padding: 15px 15px;
+  background-color: #A3BB9D;
+}
+
+.container {
+  vertical-align: middle;
+}
+
+.task-completed {
+  display: flex;
+  width: 300px;
+  margin: 20px auto 20px 10px;
+  padding: 5px 10px 5px 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#scales {
+  align-items: center;
+}
+
+
+a.link {
+  text-align: left;
+  margin-left: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+}
+
+#task_title {
+  display: block;
+  margin: 5px 10px 20px 10px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px #588157;
+}
+
+#task_details {
+  display: block;
+  margin: 5px 10px 20px 10px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px #588157;
+}
+
+#task_completed {
+  display: block;
+  margin: 5px 10px 20px 10px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px #588157;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #A3BB9D;
+  margin: 5px 10px 20px 10px;
+}
+
+.btn {
+  margin-left: 30px;
+}
+
+.edit {
+  margin: 10px 100px 5px 0px;
+}
+
+.edit-link {
+  color: black;
+  background-color: #D6E1D3;
+  border-radius: 5px;
+  border: 1px solid #588157;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 12px;
+  padding: 10px 15px;
+  margin-left: 100px;
+}
+
+.edit-link:hover {
+  background-color: white;
+  color: #588157;
+  border-radius: 5px;
+  border: 1px solid #588157;
+}
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete {
+  margin-left: auto;
+  color: #588157;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
